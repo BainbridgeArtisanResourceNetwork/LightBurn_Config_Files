@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LightBurnLibrary>
+	<Material name="LB-Acrylic">
+		<Entry Thickness="3.0000" Desc="cut through">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Acrylic/3.0000/cut through"></LinkPath>
+				<minPower Value="100"></minPower>
+				<maxPower Value="100"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="15"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabSpacing Value="50.04"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="LB-Cardboard (USPS)">
+		<Entry Thickness="2.0000" Desc="cut through">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Cardboard (USPS)/2.0000/cut through"></LinkPath>
+				<minPower Value="50"></minPower>
+				<maxPower Value="85"></maxPower>
+				<minPower2 Value="25"></minPower2>
+				<maxPower2 Value="30"></maxPower2>
+				<speed Value="100"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabSpacing Value="50.04"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="LB-Delrin">
+		<Entry Thickness="1.0000" Desc="Cut through">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Delrin/1.0000/Cut through"></LinkPath>
+				<minPower Value="100"></minPower>
+				<maxPower Value="100"></maxPower>
+				<maxPower2 Value="20"></maxPower2>
+				<speed Value="30"></speed>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<overscan Value="0"></overscan>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="LB-MDF">
+		<Entry Thickness="3.0000" Desc="cut through">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="MDF/3.0000/cut through"></LinkPath>
+				<minPower Value="60"></minPower>
+				<maxPower Value="100"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="13"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.04"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="3.0000" Desc="Cut_Through_Test">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="MDF/3.0000/Cut_Through_Test"></LinkPath>
+				<minPower Value="60"></minPower>
+				<maxPower Value="100"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="12"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.04"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="LB-MDF or plywood">
+		<Entry Thickness="-1.0000" Desc="dark text fill">
+			<CutSetting type="Scan">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="MDF or plywood/-1.0000/dark text fill"></LinkPath>
+				<minPower Value="10"></minPower>
+				<maxPower Value="50"></maxPower>
+				<maxPower2 Value="20"></maxPower2>
+				<speed Value="245"></speed>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<overscan Value="0"></overscan>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="-1.0000" Desc="light image engrave">
+			<CutSetting type="Scan">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="MDF or plywood/-1.0000/light image engrave"></LinkPath>
+				<minPower Value="0"></minPower>
+				<maxPower Value="10"></maxPower>
+				<maxPower2 Value="20"></maxPower2>
+				<speed Value="50"></speed>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<overscan Value="0"></overscan>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="-1.0000" Desc="dark image engrave">
+			<CutSetting type="Scan">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="MDF or plywood/-1.0000/dark image engrave"></LinkPath>
+				<minPower Value="10"></minPower>
+				<maxPower Value="30"></maxPower>
+				<maxPower2 Value="20"></maxPower2>
+				<speed Value="100"></speed>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<overscan Value="0"></overscan>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.04"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="LB-Ply">
+		<Entry Thickness="3.0000" Desc="cut through">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Ply/3.0000/cut through"></LinkPath>
+				<minPower Value="50"></minPower>
+				<maxPower Value="100"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="19"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.04"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="3.2000" Desc="cut through">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Ply/3.2000/cut through"></LinkPath>
+				<minPower Value="50"></minPower>
+				<maxPower Value="100"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="18"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="6.3500" Desc="cut through">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Ply/6.3500/cut through"></LinkPath>
+				<minPower Value="50"></minPower>
+				<maxPower Value="100"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="7.874"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.199898"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="LB-Rubber">
+		<Entry Thickness="-1.0000" Desc="Engrave Rubber Stamp" NoThickTitle="Rubber Stamp">
+			<CutSetting type="Scan">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Rubber/Rubber Stamp/Engrave Rubber Stamp"></LinkPath>
+				<minPower Value="100"></minPower>
+				<maxPower Value="100"></maxPower>
+				<maxPower2 Value="20"></maxPower2>
+				<speed Value="109.982"></speed>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<overscan Value="0"></overscan>
+				<interval Value="0.100076"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="3.1750" Desc="Cut  Rubber Stamp">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Rubber/3.1750/Cut  Rubber Stamp"></LinkPath>
+				<minPower Value="100"></minPower>
+				<maxPower Value="100"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="15"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<crossHatch Value="1"></crossHatch>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="LB-paper">
+		<Entry Thickness="0.2500" Desc="cut through">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="paper/0.2500/cut through"></LinkPath>
+				<minPower Value="30"></minPower>
+				<maxPower Value="60"></maxPower>
+				<minPower2 Value="25"></minPower2>
+				<maxPower2 Value="25"></maxPower2>
+				<speed Value="95"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<runBlower Value="0"></runBlower>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabSpacing Value="50.04"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="BR-Acrylic">
+		<Entry Thickness="3.0000" Desc="3mm Acrylic">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Acrylic/3.0000/3mm Acrylic"></LinkPath>
+				<minPower Value="60"></minPower>
+				<maxPower Value="60"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="20"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.04"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="10.0000" Desc="10mm Acrylic">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Acrylic/10.0000/10mm Acrylic"></LinkPath>
+				<minPower Value="60"></minPower>
+				<maxPower Value="60"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="5"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="BR-Cardboard">
+		<Entry Thickness="2.0000" Desc="USPS Cardboard">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Cardboard/2.0000/USPS Cardboard"></LinkPath>
+				<minPower Value="25"></minPower>
+				<maxPower Value="30"></maxPower>
+				<minPower2 Value="25"></minPower2>
+				<maxPower2 Value="30"></maxPower2>
+				<speed Value="80"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="2.9997" Desc="Corrugated">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Cardboard/2.9997/Corrugated"></LinkPath>
+				<minPower Value="30"></minPower>
+				<maxPower Value="50"></maxPower>
+				<minPower2 Value="25"></minPower2>
+				<maxPower2 Value="30"></maxPower2>
+				<speed Value="80"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.04"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="BR-Ceramic Fiber Paper">
+		<Entry Thickness="6.3500" Desc="cut through">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Ceramic Fiber Paper/6.3500/cut through"></LinkPath>
+				<minPower Value="7"></minPower>
+				<maxPower Value="75"></maxPower>
+				<maxPower2 Value="20"></maxPower2>
+				<speed Value="15"></speed>
+				<dotSpacing Value="0"></dotSpacing>
+				<priority Value="0"></priority>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="BR-Chipboard (aka shirt cardboard)">
+		<Entry Thickness="1.2000" Desc="cut through">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Chipboard (aka shirt cardboard)/1.2000/cut through"></LinkPath>
+				<minPower Value="30"></minPower>
+				<maxPower Value="30"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="75"></speed>
+				<startDelay Value="20"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="30"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.04"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="BR-Foam">
+		<Entry Thickness="12.7000" Desc="Closed Cell">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Foam/12.7000/Closed Cell"></LinkPath>
+				<minPower Value="60"></minPower>
+				<maxPower Value="70"></maxPower>
+				<minPower2 Value="25"></minPower2>
+				<maxPower2 Value="30"></maxPower2>
+				<speed Value="80"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="BR-MDF">
+		<Entry Thickness="3.0000" Desc="3mm MDF">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="MDF/3.0000/3mm MDF"></LinkPath>
+				<minPower Value="80"></minPower>
+				<maxPower Value="80"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="19.99"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="-1.0000" Desc="text fill - no line">
+			<CutSetting type="Scan">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="MDF/-1.0000/text fill - no line"></LinkPath>
+				<minPower Value="10"></minPower>
+				<maxPower Value="10"></maxPower>
+				<maxPower2 Value="20"></maxPower2>
+				<speed Value="200"></speed>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<overscan Value="0"></overscan>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="BR-Masonite">
+		<Entry Thickness="3.1750" Desc="3mm Masonite">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Masonite/3.1750/3mm Masonite"></LinkPath>
+				<minPower Value="80"></minPower>
+				<maxPower Value="80"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="12"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="BR-Paper">
+		<Entry Thickness="0.2540" Desc="Paper">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Paper/0.2540/Paper"></LinkPath>
+				<minPower Value="25"></minPower>
+				<maxPower Value="25"></maxPower>
+				<minPower2 Value="25"></minPower2>
+				<maxPower2 Value="25"></maxPower2>
+				<speed Value="90"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<runBlower Value="0"></runBlower>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabCount Value="1"></tabCount>
+				<tabSpacing Value="50.04"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="BR-Ply">
+		<Entry Thickness="10.0000" Desc="10mm ply">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Ply/10.0000/10mm ply"></LinkPath>
+				<minPower Value="40"></minPower>
+				<maxPower Value="70"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="12"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="3.0000" Desc="3mm Ply">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Ply/3.0000/3mm Ply"></LinkPath>
+				<minPower Value="45"></minPower>
+				<maxPower Value="45"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="30"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="6.3500" Desc="cut">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Ply/6.3500/cut"></LinkPath>
+				<minPower Value="70"></minPower>
+				<maxPower Value="90"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="15"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="BR-Rubber">
+		<Entry Thickness="-1.0000" Desc="Rubber Stamp" NoThickTitle="Rubber Stamp">
+			<CutSetting type="Scan">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Rubber/Rubber Stamp/Rubber Stamp"></LinkPath>
+				<minPower Value="40"></minPower>
+				<maxPower Value="40"></maxPower>
+				<minPower2 Value="25"></minPower2>
+				<maxPower2 Value="30"></maxPower2>
+				<speed Value="100"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="3.1750" Desc="Rubber Cut">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Rubber/3.1750/Rubber Cut"></LinkPath>
+				<minPower Value="60"></minPower>
+				<maxPower Value="60"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="30"></speed>
+				<startDelay Value="60"></startDelay>
+				<endDelay Value="20"></endDelay>
+				<throughPower Value="40"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<enableCutThroughEnd Value="1"></enableCutThroughEnd>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+	<Material name="BR-Wood">
+		<Entry Thickness="3.1750" Desc="Walnut">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Wood/3.1750/Walnut"></LinkPath>
+				<minPower Value="40"></minPower>
+				<maxPower Value="60"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="50"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabCountMax Value="1"></tabCountMax>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="6.3500" Desc="Walnut">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Wood/6.3500/Walnut"></LinkPath>
+				<minPower Value="40"></minPower>
+				<maxPower Value="60"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="30"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+		<Entry Thickness="4.7625" Desc="Walnut">
+			<CutSetting type="Cut">
+				<index Value="0"></index>
+				<name Value=""></name>
+				<LinkPath Value="Wood/4.7625/Walnut"></LinkPath>
+				<minPower Value="40"></minPower>
+				<maxPower Value="60"></maxPower>
+				<minPower2 Value="40"></minPower2>
+				<maxPower2 Value="40"></maxPower2>
+				<speed Value="30"></speed>
+				<startDelay Value="60"></startDelay>
+				<throughPower Value="60"></throughPower>
+				<enableCutThroughStart Value="1"></enableCutThroughStart>
+				<PPI Value="0"></PPI>
+				<perfLen Value="0"></perfLen>
+				<perfSkip Value="0"></perfSkip>
+				<dotTime Value="1"></dotTime>
+				<dotSpacing Value="0.01"></dotSpacing>
+				<scanOpt Value="individual"></scanOpt>
+				<overscanPercent Value="5"></overscanPercent>
+				<interval Value="0.2"></interval>
+				<priority Value="0"></priority>
+				<tabSize Value="0.50038"></tabSize>
+				<tabCount Value="1"></tabCount>
+				<tabSpacing Value="50.038"></tabSpacing>
+			</CutSetting>
+		</Entry>
+	</Material>
+</LightBurnLibrary>
